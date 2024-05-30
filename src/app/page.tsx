@@ -17,7 +17,7 @@ export default async function Home() {
   const response = await axios.get<Project[]>(`${parsedEnv.API_URL}/project`);
   return (
     <main>
-      <div className=" min-h-screen py-8 px-4 sm:px-8">
+      <div className="min-h-screen py-8 px-4 sm:px-8 mx-5 ">
     <div className="bg-lime-500 bg-opacity-60 rounded-lg shadow-lg p-8">
       <FerCard />
     </div>
