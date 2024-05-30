@@ -37,7 +37,7 @@ export default async function BlogInfo({ params }: Props) {
           priority
         />
   <div className="px-5 py-10 text-justify">
-    <h2 className="text-3xl bg-gray-900 px-10 py-10 rounded-lg">
+    <h2 className="text-xl bg-gray-900 px-10 py-10 rounded-lg">
       {p?.map((item,index) => {
         return <p key={index}>{item}</p>
       })}
